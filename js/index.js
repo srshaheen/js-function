@@ -13,3 +13,8 @@ if(hour >= 12){
 
 let minute = d.getMinutes();
 p.innerHTML = `Today is : ${today} <br> Current Time is: ${hour +' : ' + minute + ' ' + prepand }`;
+
+//function for print current page
+function printCurrentPage(){
+    window.print();
+}
