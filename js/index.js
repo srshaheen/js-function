@@ -18,3 +18,11 @@ p.innerHTML = `Today is : ${today} <br> Current Time is: ${hour +' : ' + minute 
 function printCurrentPage(){
     window.print();
 }
+
+//function for current date,month,year
+let date = d.getDate();
+let month = d.getMonth() + 1;
+let year = d.getFullYear();
+
+let dmy = `Date : ${date+'/'+month+'/'+year}`;
+document.getElementById('dmy').innerHTML = dmy;
